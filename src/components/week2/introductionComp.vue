@@ -6,7 +6,7 @@
         p Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.
         div.mt-16 
           img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="sparkle-sm")
-          img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="sparkle-sm")
+          img.px-16(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="sparkle-sm")
           img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle-sm.png?raw=true" alt="sparkle-sm")
       .section-right.d-flex.jcsb
         img.me-24(src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle.png?raw=true" alt="sparkle")
@@ -24,6 +24,9 @@
   }
   .mt-16 {
     margin-top: 16px;
+  }
+  .px-16 {
+    padding: 0 16px;
   }
   .section-left p:nth-child(1) {
     font-size: 64px;
