@@ -52,5 +52,8 @@
   border-radius: 28px;
   padding: 12px 24px;
 }
+.frame3 a:hover {
+  opacity: 0.5;
+}
 
 </style>
