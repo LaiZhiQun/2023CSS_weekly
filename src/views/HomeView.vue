@@ -3,7 +3,7 @@
   RouterLink(to='/week2') week2 作業
 </template>
 
-<style>
+<style scoped>
 body {
   display: flex;
   justify-content: center;
