@@ -32,6 +32,7 @@
 <style scoped>
 .border {
   border: 1px solid rgba(128, 128, 128, 0.1);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .wd-50 {
   width: 50%;
