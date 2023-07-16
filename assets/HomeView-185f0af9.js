@@ -1,0 +1,1 @@
+import{r as o,o as t,c as s,a,b as c,w as _,d as n,_ as r}from"./index-da01bd83.js";const d={class:"container"},i={class:"home"};function l(p,u){const e=o("RouterLink");return t(),s("div",d,[a("div",i,[c(e,{to:"/week2"},{default:_(()=>[n("week2 作業")]),_:1})])])}const m={},k=r(m,[["render",l],["__scopeId","data-v-de97b44a"]]);export{k as default};
