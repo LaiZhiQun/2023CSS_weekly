@@ -26,3 +26,48 @@ import Project from '@/components/week2/projectComp.vue'
 import Footer from '@/components/week2/footerComp.vue'
 
 </script>
+
+<style>
+* {
+  font-family: 'Bruno Ace SC', cursive;
+  text-decoration: none;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.d-flex {
+  display: flex;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+/* justify-content */
+.jcc {
+  justify-content: center;
+}
+.jcs {
+  justify-content: start;
+}
+.jce {
+  justify-content: end;
+}
+.jcsb {
+  justify-content: space-between;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.jcse {
+  justify-content: space-evenly;
+}
+/* align-items */
+.aic {
+  align-items: center;
+}
+.ais {
+  align-items: start;
+}
+.aie {
+  align-items: end;
+}
+</style>
