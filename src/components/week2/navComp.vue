@@ -1,12 +1,15 @@
 <template lang="pug"> 
 nav
-  ul.d-flex.container.aic
+  ul.d-flex.container
     li 
       RouterLink(to="#") WILLIAM LEE
     li 
       RouterLink(to="#") BASED IN TAIWAN
     li 
-      RouterLink(to="#") CURRENTLY FRONT END ENGINEER AT HEXSCHOOL
+      RouterLink(to="#")
+        | CURRENTLY FRONT END
+        br
+        | ENGINEER AT HEXSCHOOL
     li 
       RouterLink(to="#") CONTACT ME
 </template>
@@ -21,7 +24,6 @@ a:hover {
 }
 ul {
   justify-content: space-between;
-  padding-bottom: 24px;
   padding-top: 40px;
 }
 </style>
