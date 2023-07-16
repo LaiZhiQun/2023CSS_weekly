@@ -18,6 +18,7 @@
   * {
     background-color: black;
     color: white;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
   }
   .introduction {
     padding: 160px 0;
