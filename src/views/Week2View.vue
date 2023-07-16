@@ -1,5 +1,5 @@
 <template lang="pug">
-p week2
+
 Nav
 Header
 Introduction
