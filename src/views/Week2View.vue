@@ -27,8 +27,8 @@ import Footer from '@/components/week2/footerComp.vue'
 
 </script>
 
-<style>
-* {
+<style scope>
+body {
   font-family: 'Bruno Ace SC', cursive;
   text-decoration: none;
   line-height: 1.5;
