@@ -32,7 +32,7 @@
             p 詳細資訊
       li
         img(
-          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true',
+          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-2.png?raw=true',
           alt='中山'
         )
         .description
@@ -51,7 +51,7 @@
             p 詳細資訊
       li
         img(
-          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true',
+          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-3.png?raw=true',
           alt='中山'
         )
         .description
@@ -70,7 +70,7 @@
             p 詳細資訊
       li
         img(
-          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true',
+          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-4.png?raw=true',
           alt='中山'
         )
         .description
@@ -89,7 +89,7 @@
             p 詳細資訊
       li
         img(
-          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true',
+          src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-5.png?raw=true',
           alt='中山'
         )
         .description
