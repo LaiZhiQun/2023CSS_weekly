@@ -36,17 +36,17 @@
           alt='中山'
         )
         .description
-          h3 台北中山旗艦店
+          h3 台北綠園店
           .detail
             p
               span.material-symbols-outlined call
-              span 電話：(02)000-1234
+              span 電話：(02)000-2345
             p
               span.material-symbols-outlined schedule
               span 營業時間：10:00-21:00
             p
               span.material-symbols-outlined location_on
-              span 地址：台北市中山區南京東路25巷2-1號
+              span 地址：台北市中正區復興南路 132-1 號
           a(href='#')
             p 詳細資訊
       li
@@ -55,7 +55,7 @@
           alt='中山'
         )
         .description
-          h3 台北中山旗艦店
+          h3 台中清水旗艦店
           .detail
             p
               span.material-symbols-outlined call
@@ -65,7 +65,7 @@
               span 營業時間：10:00-21:00
             p
               span.material-symbols-outlined location_on
-              span 地址：台北市中山區南京東路25巷2-1號
+              span 地址：台中市清水區經南一路 23 號 8 樓
           a(href='#')
             p 詳細資訊
       li
@@ -74,17 +74,17 @@
           alt='中山'
         )
         .description
-          h3 台北中山旗艦店
+          h3 高雄中正形象店
           .detail
             p
               span.material-symbols-outlined call
-              span 電話：(02)000-1234
+              span 電話：(07)000-2345
             p
               span.material-symbols-outlined schedule
               span 營業時間：10:00-21:00
             p
               span.material-symbols-outlined location_on
-              span 地址：台北市中山區南京東路25巷2-1號
+              span 地址：高雄市苓雅區中正路 38 號 12 樓
           a(href='#')
             p 詳細資訊
       li
@@ -93,17 +93,17 @@
           alt='中山'
         )
         .description
-          h3 台北中山旗艦店
+          h3 高雄夢時代店
           .detail
             p
               span.material-symbols-outlined call
-              span 電話：(02)000-1234
+              span 電話：(07)000-1234
             p
               span.material-symbols-outlined schedule
               span 營業時間：10:00-21:00
             p
               span.material-symbols-outlined location_on
-              span 地址：台北市中山區南京東路25巷2-1號
+              span 地址：高雄市前鎮區中華一路 63 號 6 樓
           a(href='#')
             p 詳細資訊
 </template>
@@ -180,6 +180,7 @@ h2 {
       }
       span:nth-child(2) {
         padding-left: 8px;
+        padding-right: 8px;
         font-size: 20px;
       }
     }
