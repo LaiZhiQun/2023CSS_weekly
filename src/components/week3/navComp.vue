@@ -6,10 +6,10 @@ nav
     ul
       li
         a(href="#") 系列鏡框
-        a(href="#") 門市據點
+        RouterLink(to='/week4Branches') 門市據點
       li
         a(href="#") 部落格
-        a(href="#") 常見問題
+        RouterLink(to='/week4Problems') 常見問題
 </template>
 
 <style scoped>
