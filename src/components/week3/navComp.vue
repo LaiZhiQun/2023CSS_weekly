@@ -54,7 +54,7 @@ img {
     padding-bottom: 0;
   }
   .header h1 {
-    padding-left: 16px;
+    padding-left: 12px;
     padding-bottom: 16px;
   }
   ul {

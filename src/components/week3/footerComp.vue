@@ -48,7 +48,7 @@
 
 <style scoped>
 .footer {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   background-color: #aa0601;
 }
 .content {
@@ -118,7 +118,7 @@ hr {
 
 @media (max-width: 576px) {
   .content {
-    padding: 0 14px;
+    padding: 0 12px;
   }
   .info {
     padding-top: 0px;

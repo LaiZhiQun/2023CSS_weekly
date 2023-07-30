@@ -4,6 +4,10 @@
     RouterLink(to='/week2') week2 作業
     br
     RouterLink(to='/week3') week3 作業
+    br
+    RouterLink(to='/week4Branches') week4 作業 - 門市據點
+    br
+    RouterLink(to='/week4Problems') week4 作業 - 常見問題
   </template>
 
 <style scoped>
