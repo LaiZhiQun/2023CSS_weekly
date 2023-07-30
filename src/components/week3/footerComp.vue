@@ -59,6 +59,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 45px;
+  margin: 0 -12px;
 }
 .info-detail {
   padding: 15px 0;
@@ -85,6 +86,7 @@
   justify-content: space-between;
   color: white;
   padding: 32px 0;
+  margin: 0 -12px;
 }
 .copyright-left {
   margin-bottom: 8px;
@@ -114,6 +116,7 @@ li a {
 }
 hr {
   opacity: 0.5;
+  margin: 0 -12px;
 }
 
 @media (max-width: 576px) {
@@ -122,6 +125,7 @@ hr {
   }
   .info {
     padding-top: 0px;
+    margin: 0;
   }
   .info-detail {
     padding: 0;
@@ -150,6 +154,7 @@ hr {
     display: block;
     padding: 0;
     padding-bottom: 16px;
+    margin: 0;
   }
   .copyright-right {
     display: block;
@@ -161,6 +166,8 @@ hr {
   hr {
     margin-top: 24px;
     margin-bottom: 16px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 </style>

@@ -13,9 +13,6 @@ nav
 </template>
 
 <style scoped>
-* {
-  /* outline: solid; */
-}
 nav {
   background-color: #aa0601;
 }
@@ -27,9 +24,13 @@ nav {
   align-items: center;
   padding: 16px 0;
 }
+h1 {
+  margin: 0 -12px;
+}
 ul {
   display: flex;
   justify-content: space-between;
+  margin: 0 -12px;
 }
 li {
   display: flex;
@@ -56,11 +57,13 @@ img {
   .header h1 {
     padding-left: 12px;
     padding-bottom: 16px;
+    margin: 0;
   }
   ul {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    margin: 0;
   }
   li {
     width: 100%;
