@@ -28,8 +28,7 @@
             p
               span.material-symbols-outlined location_on
               span 地址：台北市中山區南京東路25巷2-1號
-          a(href='#')
-            p 詳細資訊
+          a(href='#') 詳細資訊
       li
         img(
           src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-2.png?raw=true',
@@ -47,8 +46,7 @@
             p
               span.material-symbols-outlined location_on
               span 地址：台北市中正區復興南路 132-1 號
-          a(href='#')
-            p 詳細資訊
+          a(href='#') 詳細資訊
       li
         img(
           src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-3.png?raw=true',
@@ -66,8 +64,7 @@
             p
               span.material-symbols-outlined location_on
               span 地址：台中市清水區經南一路 23 號 8 樓
-          a(href='#')
-            p 詳細資訊
+          a(href='#') 詳細資訊
       li
         img(
           src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-4.png?raw=true',
@@ -85,8 +82,7 @@
             p
               span.material-symbols-outlined location_on
               span 地址：高雄市苓雅區中正路 38 號 12 樓
-          a(href='#')
-            p 詳細資訊
+          a(href='#') 詳細資訊
       li
         img(
           src='https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-5.png?raw=true',
@@ -104,8 +100,7 @@
             p
               span.material-symbols-outlined location_on
               span 地址：高雄市前鎮區中華一路 63 號 6 樓
-          a(href='#')
-            p 詳細資訊
+          a(href='#') 詳細資訊
 </template>
 
 <style lang="scss" scoped>
@@ -126,16 +121,20 @@ h2 {
 }
 .area {
   margin: 20px 0;
+  display: flex;
+  align-items: center;
   label {
+    display: block;
     font-size: 24px;
     font-weight: bold;
   }
   select {
-    margin-left: 16px;
+    display: block;
+    margin-left: 10px;
     font-size: 20px;
     padding: 6px;
     border: 2px solid rgb(0, 0, 0, 0.1);
-    min-width: 23.5%;
+    width: 24%;
   }
 }
 .branchesInfo {
@@ -181,13 +180,11 @@ h2 {
     display: block;
     padding: 16px 0;
     background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 19px;
     &:hover {
       opacity: 0.8;
-    }
-    p {
-      text-align: center;
-      color: white;
-      font-size: 19px;
     }
   }
 }
