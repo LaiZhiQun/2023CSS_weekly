@@ -24,13 +24,9 @@ nav {
   align-items: center;
   padding: 16px 0;
 }
-h1 {
-  margin: 0 -12px;
-}
 ul {
   display: flex;
   justify-content: space-between;
-  margin: 0 -12px;
 }
 li {
   display: flex;

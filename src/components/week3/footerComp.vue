@@ -48,7 +48,6 @@
 
 <style scoped>
 .footer {
-  /* margin-top: 1rem; */
   background-color: #aa0601;
 }
 .content {
@@ -59,7 +58,6 @@
   display: flex;
   justify-content: space-between;
   padding-top: 45px;
-  margin: 0 -12px;
 }
 .info-detail {
   padding: 15px 0;
@@ -86,7 +84,6 @@
   justify-content: space-between;
   color: white;
   padding: 32px 0;
-  margin: 0 -12px;
 }
 .copyright-left {
   margin-bottom: 8px;
@@ -116,7 +113,6 @@ li a {
 }
 hr {
   opacity: 0.5;
-  margin: 0 -12px;
 }
 
 @media (max-width: 576px) {

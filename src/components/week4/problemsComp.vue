@@ -65,15 +65,7 @@ h2 {
   position: relative;
   padding-left: 16px;
   font-weight: bold;
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 8px;
-    background-color: #9f1213;
-  }
+  border-left: 8px solid #9f1213;
 }
 h3 {
   margin: 12px -12px;

@@ -119,22 +119,13 @@ body {
   line-height: 1.5;
 }
 h2 {
-  margin: 0 -12px;
   font-size: 48px;
   position: relative;
   padding-left: 16px;
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 8px;
-    background-color: #9f1213;
-  }
+  border-left: 8px solid #9f1213;
 }
 .area {
-  margin: 20px -12px;
+  margin: 20px 0;
   label {
     font-size: 24px;
     font-weight: bold;
@@ -148,7 +139,8 @@ h2 {
   }
 }
 .branchesInfo {
-  margin: 0 -24px;
+  margin-left: -12px;
+  margin-right: -12px;
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -158,7 +150,7 @@ h2 {
     padding: 24px 12px;
   }
   img {
-    max-width: 100%;
+    width: 100%;
   }
 }
 .description {
