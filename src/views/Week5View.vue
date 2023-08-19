@@ -26,20 +26,20 @@
       .user.d-flex.align-items-center
         img(src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true")
         .user__info.ms-3 
-          p.fw-bold.mb-1 Andy Chen
+          p.fw-bold.mb-0 Andy Chen
           p.text-secondary.fw-light.fs-7.mb-0 andy0401@mail.com
     .col-9
       .headers.d-flex.justify-content-between.align-items-center 
         .admin.d-flex.align-items-center 
           h1.fw-bold.h4.mb-0 Admin 
           a.fw-bold.text-black(href="#")
-            i.bi.bi-plus-lg
+            i.bi.bi-plus-lg.fw-bold.fs-5
             span Add New Admin
         .icon
           a(href="")
-            i.bi.bi-search.me-4
+            i.bi.bi-search.me-4.fs-5
           a(href="")
-            i.bi.bi-bell-fill
+            i.bi.bi-bell-fill.fs-5
       .main
         table.table.table-hover
           thead
@@ -133,8 +133,8 @@
                 i.bi.bi-eye-fill
                 i.bi.bi-pencil-fill.ms-4
                 nav(aria-label="Page navigation example")
-        ul.pagination.d-flex.justify-content-end.pagination-sm
-          li.page-item
+        ul.pagination.d-flex.justify-content-end.pagination-sm.mb-0
+          li.page-item.br-left
             a.page-link(href="#").bi.bi-chevron-left
           li.page-item
             a.page-link(href="#") 1
@@ -189,11 +189,13 @@
 }
 .user {
   margin-left: 32px;
+  margin-bottom: 32px;
   background-color: #F8F9FA;
   img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit:cover;
   }
 }
 
@@ -221,6 +223,9 @@
   margin-top: 48px;
   tbody th {
     font-weight: lighter;
+    i {
+      font-size: 24px;
+    }
   }
 }
 
@@ -228,13 +233,19 @@
   margin-top: 65px;
 }
 .page-link {
-  border: 2px solid #198754;
+  border-top: 2px solid #198754;
+  border-bottom: 2px solid #198754;
+  border-left: 1px solid #198754;
+  border-right: 2px solid #198754;
   &:hover {
     background-color: #198754;
     color: white;
   }
 }
-
+.br-left {
+  border-left: 1px solid #198754;
+  border-radius: 5px 0 0 5px;
+}
 </style>
 
 <script>
