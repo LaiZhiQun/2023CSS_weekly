@@ -8,6 +8,8 @@
     RouterLink(to='/week4Branches') week4 作業 - 門市據點
     br
     RouterLink(to='/week4Problems') week4 作業 - 常見問題
+    br
+    RouterLink(to='/week5') week5 作業 - 常見問題
   </template>
 
 <style scoped>
