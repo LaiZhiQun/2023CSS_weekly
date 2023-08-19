@@ -1,0 +1,1 @@
+import{N as t,F as a}from"./footerComp-dbd6c55b.js";import{o,c as _,b as e,F as r}from"./index-f63e9f43.js";const p={__name:"Week3View",setup(s){return(n,c)=>(o(),_(r,null,[e(t),e(a)],64))}};export{p as default};
